@@ -75,17 +75,17 @@ sh run.sh
 #### CRA
 
 - create
-149.722
+76.028
 - build
-70.827
+37.645
 - run tests
-28.721
+8.571
 
 #### express
 
 - create
-52.764
+21.463
 - build
-13.007
+12.339
 - run tests
-12.502
+12.045
