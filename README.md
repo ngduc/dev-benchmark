@@ -1,6 +1,6 @@
 # dev-benchmark
 
-Benchmark script to measure performance of usual development tools.
+Benchmark script to measure performance of development tools.
 
 How does it work?
 
@@ -13,7 +13,7 @@ Create a Pull Request to add results of your computer performance.
 ### Usage
 
 - Node JS v15+
-- Tested with Ubuntu, MacOS.
+- Tested with Ubuntu, Debian, MacOS.
 
 ```
 - Clone and Run:
