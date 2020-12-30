@@ -26,6 +26,8 @@ echo >> $f
 echo "### $1" >> $f
 echo >> $f
 
+# --------- create an CRA webapp for benchmarking.
+
 echo "#### CRA" >> $f
 echo >> $f
 echo "- create" >> $f
@@ -47,7 +49,7 @@ logEnd2
 cd ..
 clean
 
-# ---------
+# --------- create an Express NodeJS app for benchmarking.
 
 echo >> $f
 echo "#### express" >> $f
