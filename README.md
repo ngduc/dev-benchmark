@@ -2,7 +2,9 @@
 
 Benchmark script to measure performance of usual development tools.
 
-Create a Pull Request to add result of your computer by cloning and running the script.
+Create a Pull Request to add result of your computer by cloning and running [the script](./run.sh).
+
+Node JS v15+
 
 ```
 git clone https://ngduc@github.com/ngduc/dev-benchmark.git
@@ -11,9 +13,12 @@ chmod +x run.sh
 sh run.sh
 ```
 
-## Results:
+## Results
 
-### HP 17z-ca300 - AMD Ryzen 5 - 16 GB RAM
+- After running the script, the benchmark results (in seconds) will be added to this README.md file.
+- Create a Pull Request to add your results here.
+
+### HP 17z-ca300 - AMD Ryzen 5 4500U - 16 GB DDR4-2666 SDRAM - SSD
 
 #### CRA
 - create
