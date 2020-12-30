@@ -32,7 +32,7 @@ sh run.sh
 - After running the script, the benchmark results (in seconds) will be added to this README.md file.
 - Create a Pull Request to add your results here.
 
-### HP 17z-ca300 - AMD Ryzen 5 4500U - 16 GB DDR4-2666 SDRAM - SSD
+### HP 17z-ca300 - Ubuntu - AMD Ryzen 5 4500U - 16 GB DDR4-2666 SDRAM - SSD
 
 #### CRA
 
@@ -52,7 +52,7 @@ sh run.sh
 - run tests
   4.82
 
-### MacBook Pro (Retina, 13-inch, Early 2015) - 3.1 GHz Intel Core i7 - 16 GB 1867 MHz DDR3 - SSD
+### MacBook Pro (Retina, 13-inch, Early 2015) - MacOS Mojave - 3.1 GHz Intel Core i7 - 16 GB 1867 MHz DDR3 - SSD
 
 #### CRA
 
