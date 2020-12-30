@@ -16,15 +16,13 @@ Create a Pull Request to add results of your computer performance.
 - Tested with Ubuntu, MacOS.
 
 ```
-Prepare:
-npm install create-react-app -g
-npm install express-generator-typescript -g
-
-Clone and Run:
+- Clone and Run:
 git clone https://ngduc@github.com/ngduc/dev-benchmark.git
 cd dev-benchmark
 chmod +x run.sh
 sh run.sh
+
+- Run "sh run.sh" twice to get more accurate results. (due to caching)
 ```
 
 ## Results

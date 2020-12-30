@@ -15,6 +15,13 @@ clean () {
   rm temp
 }
 
+clean
+git stash save -u
+npm install yarn -g
+npm install ts-node -g
+npm install create-react-app -g
+npm install express-generator-typescript -g
+
 echo >> $f
 echo "### $1" >> $f
 echo >> $f
