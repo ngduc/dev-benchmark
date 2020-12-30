@@ -71,3 +71,23 @@ sh run.sh
   5.49
 - run tests
   6.19
+
+### Linode - Debian 8 - 1 CPU Core - 2 GB RAM
+
+#### CRA
+
+- create
+149.722
+- build
+70.827
+- run tests
+28.721
+
+#### express
+
+- create
+52.764
+- build
+13.007
+- run tests
+12.502
