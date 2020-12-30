@@ -2,11 +2,24 @@
 
 Benchmark script to measure performance of usual development tools.
 
-Create a Pull Request to add result of your computer by cloning and running [the script](./run.sh).
+How does it work?
+
+- [The run.sh script](./run.sh) will generate a CRA webapp (benchmark1) and an Express NodeJS app (benchmark2).
+- Then it will run usual npm commands like: npm run build, npm run test and measure the time (in seconds).
+- Results will be added to this README.md file. (run git status to see the changes)
+
+Create a Pull Request to add results of your computer performance.
+
+### Usage
 
 Node JS v15+
 
 ```
+Prepare:
+npm install create-react-app -g
+npm install express-generator-typescript -g
+
+Clone and Run:
 git clone https://ngduc@github.com/ngduc/dev-benchmark.git
 cd dev-benchmark
 chmod +x run.sh
@@ -21,17 +34,39 @@ sh run.sh
 ### HP 17z-ca300 - AMD Ryzen 5 4500U - 16 GB DDR4-2666 SDRAM - SSD
 
 #### CRA
+
 - create
-36.714565998
+  36.71
 - build
-8.711470157
+  8.71
 - run tests
-3.077614410
+  3.08
 
 #### express
+
 - create
-18.555639702
+  18.55
 - build
-3.907113292
+  3.90
 - run tests
-4.815195622
+  4.82
+
+### MacBook Pro (Retina, 13-inch, Early 2015) - 3.1 GHz Intel Core i7 - 16 GB 1867 MHz DDR3 - SSD
+
+#### CRA
+
+- create
+  44.45
+- build
+  15.58
+- run tests
+  3.45
+
+#### express
+
+- create
+  15.50
+- build
+  5.49
+- run tests
+  6.19

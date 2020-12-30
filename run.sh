@@ -1,10 +1,10 @@
 #!/usr/bin/bash
 f=README.md
 logEnd () {
-  echo $(echo "$(date +%s.%N) - $start" | bc) > temp && tail temp -n 3 | head -1 >> $f
+  echo $(echo "$(ruby -e 'puts "%.2f" % Time.now') - $start" | bc) > temp && tail -n 3 temp | head -1 >> $f
 }
 logEnd2 () {
-  echo $(echo "$(date +%s.%N) - $start" | bc) > temp && tail temp -n 3 | head -1 >> ../$f
+  echo $(echo "$(ruby -e 'puts "%.2f" % Time.now') - $start" | bc) > temp && tail -n 3 temp | head -1 >> ../$f
 }
 clean () {
   rm -rf benchmark1 > temp
@@ -17,19 +17,20 @@ echo "### $1" >> $f
 echo >> $f
 
 echo "#### CRA" >> $f
+echo >> $f
 echo "- create" >> $f
-start=$(date +%s.$N)
+start=$(ruby -e 'puts "%.2f" % Time.now')
 npx create-react-app benchmark1 --template typescript
 logEnd
 
 cd benchmark1
 echo "- build" >> ../$f
-start=$(date +%s.$N)
+start=$(ruby -e 'puts "%.2f" % Time.now')
 npm run build
 logEnd2
 
 echo "- run tests" >> ../$f
-start=$(date +%s.$N)
+start=$(ruby -e 'puts "%.2f" % Time.now')
 CI=true npm run test
 logEnd2
 
@@ -40,19 +41,20 @@ clean
 
 echo >> $f
 echo "#### express" >> $f
+echo >> $f
 echo "- create" >> $f
-start=$(date +%s.$N)
+start=$(ruby -e 'puts "%.2f" % Time.now')
 npx express-generator-typescript --with-auth benchmark2
 logEnd
 
 cd benchmark2
 echo "- build" >> ../$f
-start=$(date +%s.$N)
+start=$(ruby -e 'puts "%.2f" % Time.now')
 npm run build
 logEnd2
 
 echo "- run tests" >> ../$f
-start=$(date +%s.$N)
+start=$(ruby -e 'puts "%.2f" % Time.now')
 npx ts-node -r tsconfig-paths/register ./spec
 logEnd2
 
