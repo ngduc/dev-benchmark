@@ -12,7 +12,8 @@ Create a Pull Request to add results of your computer performance.
 
 ### Usage
 
-Node JS v15+
+- Node JS v15+
+- Tested with Ubuntu, MacOS.
 
 ```
 Prepare:
