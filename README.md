@@ -21,8 +21,7 @@ Create a Pull Request to add results of your computer performance.
 - Clone and Run:
 git clone https://github.com/ngduc/dev-benchmark.git
 cd dev-benchmark
-chmod +x run.sh "Brand Model - OS - CPU - RAM - HDD"
-sh run.sh
+sh run.sh "Brand Model - OS - CPU - RAM - HDD"
 
 - Run "sh run.sh" twice to get more accurate results. (due to caching)
 ```
