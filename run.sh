@@ -36,12 +36,12 @@ npx create-react-app benchmark1 --template typescript
 logEnd
 
 cd benchmark1
-echo "- build" >> ../$f
+echo "- npm run build" >> ../$f
 setStartTime
 npm run build
 logEnd2
 
-echo "- run tests" >> ../$f
+echo "- npm run test" >> ../$f
 setStartTime
 CI=true npm run test
 logEnd2
@@ -60,12 +60,12 @@ npx express-generator-typescript --with-auth benchmark2
 logEnd
 
 cd benchmark2
-echo "- build" >> ../$f
+echo "- npm run build" >> ../$f
 setStartTime
 npm run build
 logEnd2
 
-echo "- run tests" >> ../$f
+echo "- npm run test" >> ../$f
 setStartTime
 npx ts-node -r tsconfig-paths/register ./spec
 logEnd2
