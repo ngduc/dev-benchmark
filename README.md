@@ -15,13 +15,13 @@ Create a Pull Request to add results of your computer performance.
 ### Usage
 
 - Node JS v15+
-- Tested with Ubuntu, Debian, MacOS.
+- Tested with Ubuntu, Debian, MacOS, Windows (with Cygwin).
 
 ```
 - Clone and Run:
 git clone https://ngduc@github.com/ngduc/dev-benchmark.git
 cd dev-benchmark
-chmod +x run.sh
+chmod +x run.sh "Brand Model - OS - CPU - RAM - HDD"
 sh run.sh
 
 - Run "sh run.sh" twice to get more accurate results. (due to caching)
@@ -32,7 +32,7 @@ sh run.sh
 - After running the script (run it twice for accurate results), the benchmark results (in seconds) will be added to this README.md file.
 - Create a Pull Request to add your results here.
 
-### HP 17z-ca300 - Ubuntu - AMD Ryzen 5 4500U - 16 GB DDR4-2666 SDRAM - SSD
+### HP 17z-ca300 - HyperV Ubuntu - AMD Ryzen 5 4500U - 16 GB DDR4-2666 SDRAM - SSD
 
 #### CRA
 
@@ -51,6 +51,26 @@ sh run.sh
   3.90
 - npm run test
   4.82
+
+### HP 17z-ca300 - Windows 10 Cygwin - AMD Ryzen 5 4500U - 16 GB DDR4-2666 SDRAM - SSD
+
+#### CRA
+
+- create
+61.548
+- npm run build
+45.456
+- npm run test
+16.485
+
+#### express
+
+- create
+20.107
+- npm run build
+8.130
+- npm run test
+9.144
 
 ### MacBook Pro (Retina, 13-inch, Early 2015) - MacOS Mojave - 3.1 GHz Intel Core i7 - 16 GB 1867 MHz DDR3 - SSD
 
@@ -91,3 +111,4 @@ sh run.sh
 12.339
 - npm run test
 12.045
+
