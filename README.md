@@ -19,7 +19,7 @@ Create a Pull Request to add results of your computer performance.
 
 ```
 - Clone and Run:
-git clone https://ngduc@github.com/ngduc/dev-benchmark.git
+git clone https://github.com/ngduc/dev-benchmark.git
 cd dev-benchmark
 chmod +x run.sh "Brand Model - OS - CPU - RAM - HDD"
 sh run.sh
@@ -32,7 +32,7 @@ sh run.sh
 - After running the script (run it twice for accurate results), the benchmark results (in seconds) will be added to this README.md file.
 - Create a Pull Request to add your results here.
 
-### HP 17z-ca300 - HyperV Ubuntu - AMD Ryzen 5 4500U - 16 GB DDR4-2666 SDRAM - SSD
+### HP 17z-ca300 - Windows 10 HyperV Ubuntu - AMD Ryzen 5 4500U - 16 GB DDR4-2666 SDRAM - SSD
 
 #### CRA
 
