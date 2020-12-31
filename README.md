@@ -2,7 +2,9 @@
 
 Benchmark script to measure performance of development tools.
 
-How does it work?
+Motivation: Recently I realized that I own multiple computers. I wanted to know which one can run my web development tools faster and more efficiently. So, I created this simple script to benchmark them by running my regular real-world tools like: CRA, express generator etc. and measure the time.
+
+### How does it work?
 
 - [The run.sh script](./run.sh) will generate a CRA webapp (benchmark1) and an Express NodeJS app (benchmark2).
 - Then it will run usual npm commands like: npm run build, npm run test and measure the time (in seconds).
@@ -27,7 +29,7 @@ sh run.sh
 
 ## Results
 
-- After running the script, the benchmark results (in seconds) will be added to this README.md file.
+- After running the script (run it twice for accurate results), the benchmark results (in seconds) will be added to this README.md file.
 - Create a Pull Request to add your results here.
 
 ### HP 17z-ca300 - Ubuntu - AMD Ryzen 5 4500U - 16 GB DDR4-2666 SDRAM - SSD
