@@ -38,18 +38,18 @@ sh run.sh
 
 - create
   36.71
-- build
+- npm run build
   8.71
-- run tests
+- npm run test
   3.08
 
 #### express
 
 - create
   18.55
-- build
+- npm run build
   3.90
-- run tests
+- npm run test
   4.82
 
 ### MacBook Pro (Retina, 13-inch, Early 2015) - MacOS Mojave - 3.1 GHz Intel Core i7 - 16 GB 1867 MHz DDR3 - SSD
@@ -58,18 +58,18 @@ sh run.sh
 
 - create
   44.45
-- build
+- npm run build
   15.58
-- run tests
+- npm run test
   3.45
 
 #### express
 
 - create
   15.50
-- build
+- npm run build
   5.49
-- run tests
+- npm run test
   6.19
 
 ### Linode - Debian 8 - 1 CPU Core - 2 GB RAM
@@ -78,16 +78,16 @@ sh run.sh
 
 - create
 76.028
-- build
+- npm run build
 37.645
-- run tests
+- npm run test
 8.571
 
 #### express
 
 - create
 21.463
-- build
+- npm run build
 12.339
-- run tests
+- npm run test
 12.045
