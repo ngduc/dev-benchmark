@@ -37,98 +37,97 @@ sh run.sh "Brand Model - OS - CPU - RAM - HDD"
 #### CRA
 
 - create
-  36.71
+  `36.71`
 - npm run build
-  8.71
+  `8.71`
 - npm run test
-  3.08
+  `3.08`
 
 #### express
 
 - create
-  18.55
+  `18.55`
 - npm run build
-  3.90
+  `3.90`
 - npm run test
-  4.82
+  `4.82`
 
 ### HP 17z-ca300 - Windows 10 Docker Debian - AMD Ryzen 5 4500U - 16 GB DDR4-2666 SDRAM - SSD
 
 #### CRA
 
 - create
-46.551
+`46.551`
 - npm run build
-9.056
+`9.056`
 - npm run test
-2.302
+`2.302`
 
 #### express
 
 - create
-14.234
+`14.234`
 - npm run build
-3.608
+`3.608`
 - npm run test
-4.126
+`4.126`
 
 ### HP 17z-ca300 - Windows 10 Cygwin - AMD Ryzen 5 4500U - 16 GB DDR4-2666 SDRAM - SSD
 
 #### CRA
 
 - create
-61.548
+`61.548`
 - npm run build
-45.456
+`45.456`
 - npm run test
-16.485
+`16.485`
 
 #### express
 
 - create
-20.107
+`20.107`
 - npm run build
-8.130
+`8.130`
 - npm run test
-9.144
+`9.144`
 
 ### MacBook Pro (Retina, 13-inch, Early 2015) - MacOS Mojave - 3.1 GHz Intel Core i7 - 16 GB 1867 MHz DDR3 - SSD
 
 #### CRA
 
 - create
-  44.45
+  `44.45`
 - npm run build
-  15.58
+  `15.58`
 - npm run test
-  3.45
+  `3.45`
 
 #### express
 
 - create
-  15.50
+  `15.50`
 - npm run build
-  5.49
+  `5.49`
 - npm run test
-  6.19
+  `6.19`
 
 ### Linode - Debian 8 - 1 CPU Core - 2 GB RAM
 
 #### CRA
 
 - create
-76.028
+`76.028`
 - npm run build
-37.645
+`37.645`
 - npm run test
-8.571
+`8.571`
 
 #### express
 
 - create
-21.463
+`21.463`
 - npm run build
-12.339
+`12.339`
 - npm run test
-12.045
-
+`12.045`
