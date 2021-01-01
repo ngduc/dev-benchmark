@@ -56,20 +56,20 @@ sh run.sh "Brand Model - OS - CPU - RAM - HDD"
 #### CRA
 
 - create
-66.074
+46.551
 - npm run build
-9.684
+9.056
 - npm run test
-2.728
+2.302
 
 #### express
 
 - create
-25.561
+14.234
 - npm run build
-4.764
+3.608
 - npm run test
-5.038
+4.126
 
 ### HP 17z-ca300 - Windows 10 Cygwin - AMD Ryzen 5 4500U - 16 GB DDR4-2666 SDRAM - SSD
 
@@ -130,3 +130,4 @@ sh run.sh "Brand Model - OS - CPU - RAM - HDD"
 12.339
 - npm run test
 12.045
+
