@@ -51,6 +51,26 @@ sh run.sh "Brand Model - OS - CPU - RAM - HDD"
 - npm run test
   4.82
 
+### HP 17z-ca300 - Windows 10 Docker Debian - AMD Ryzen 5 4500U - 16 GB DDR4-2666 SDRAM - SSD
+
+#### CRA
+
+- create
+66.074
+- npm run build
+9.684
+- npm run test
+2.728
+
+#### express
+
+- create
+25.561
+- npm run build
+4.764
+- npm run test
+5.038
+
 ### HP 17z-ca300 - Windows 10 Cygwin - AMD Ryzen 5 4500U - 16 GB DDR4-2666 SDRAM - SSD
 
 #### CRA
@@ -110,23 +130,3 @@ sh run.sh "Brand Model - OS - CPU - RAM - HDD"
 12.339
 - npm run test
 12.045
-
-### HP 17z-ca300 - Windows 10 Docker Debian - AMD Ryzen 5 4500U - 16 GB DDR4-2666 SDRAM - SSD
-
-#### CRA
-
-- create
-66.074
-- npm run build
-9.684
-- npm run test
-2.728
-
-#### express
-
-- create
-25.561
-- npm run build
-4.764
-- npm run test
-5.038
