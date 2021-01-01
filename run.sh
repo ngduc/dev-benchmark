@@ -15,6 +15,8 @@ clean () {
   rm temp
 }
 
+: ${1?ERROR: Missing argument. USAGE: sh run.sh \"Brand Model - OS - CPU - RAM - SSD\"}
+
 clean
 git stash save -u
 npm install yarn -g
@@ -72,3 +74,5 @@ logEnd2
 
 cd ..
 clean
+git diff
+
