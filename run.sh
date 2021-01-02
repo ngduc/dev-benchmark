@@ -4,10 +4,10 @@ setStartTime () {
   start=$(node -e 'a=new Date(); console.log(`${+a/1000}`)')
 }
 logEnd () {
-  echo $(echo "$(node -e 'a=new Date(); console.log(`${+a/1000}`)') - $start" | bc) > temp && tail -n 3 temp | head -1 >> $f
+  echo $(echo "$(node -e 'a=new Date(); console.log(`${+a/1000}`)') - $start" | bc) > temp && tail -n 3 temp | echo "\`$(head -1)\`" >> $f
 }
 logEnd2 () {
-  echo $(echo "$(node -e 'a=new Date(); console.log(`${+a/1000}`)') - $start" | bc) > temp && tail -n 3 temp | head -1 >> ../$f
+  echo $(echo "$(node -e 'a=new Date(); console.log(`${+a/1000}`)') - $start" | bc) > temp && tail -n 3 temp | echo "\`$(head -1)\`" >> ../$f
 }
 clean () {
   rm -rf benchmark1 > temp
@@ -18,7 +18,7 @@ clean () {
 : ${1?ERROR: Missing argument. USAGE: sh run.sh \"Brand Model - OS - CPU - RAM - SSD\"}
 
 clean
-git stash save -u
+# git stash save -u
 npm install yarn -g
 npm install ts-node -g
 npm install create-react-app -g

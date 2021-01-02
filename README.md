@@ -32,6 +32,26 @@ sh run.sh "Brand Model - OS - CPU - RAM - HDD"
 - After running the script (run it twice for accurate results), the benchmark results (in seconds) will be added to this README.md file.
 - Create a Pull Request to add your results here.
 
+### HP 17z-ca300 - Windows 10 HyperV Debian - AMD Ryzen 5 4500U - 16 GB DDR4-2666 SDRAM - SSD
+
+#### CRA
+
+- create
+`35.709`
+- npm run build
+`8.856`
+- npm run test
+`2.613`
+
+#### express
+
+- create
+`14.416`
+- npm run build
+`3.765`
+- npm run test
+`4.306`
+
 ### HP 17z-ca300 - Windows 10 HyperV Ubuntu - AMD Ryzen 5 4500U - 16 GB DDR4-2666 SDRAM - SSD
 
 #### CRA
