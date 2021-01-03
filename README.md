@@ -151,3 +151,23 @@ sh run.sh "Brand Model - OS - CPU - RAM - HDD"
 `12.339`
 - npm run test
 `12.045`
+
+### GN34 Mini PC - Windows 10 Cygwin - Intel Celeron J3455 - 8GB RAM - 64 GB eMMC
+
+#### CRA
+
+- create
+`162.016`
+- npm run build
+`42.069`
+- npm run test
+`18.397`
+
+#### express
+
+- create
+`44.258`
+- npm run build
+`16.773`
+- npm run test
+`17.237`
