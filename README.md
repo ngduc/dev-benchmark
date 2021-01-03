@@ -24,7 +24,7 @@ cd dev-benchmark
 sh run.sh "Brand Model - OS - CPU - RAM - HDD"
 
 - Run "sh run.sh" twice to get more accurate results. (due to caching)
-- Plug in the charger if using a laptop.
+- Close all background apps, remote access apps. Plug in the charger if using a laptop.
 ```
 
 ## Results
