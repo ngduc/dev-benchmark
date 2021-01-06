@@ -171,3 +171,23 @@ sh run.sh "Brand Model - OS - CPU - RAM - HDD"
 `16.773`
 - npm run test
 `17.237`
+
+### ITX PC - Windows 10 Cygwin - Intel Core i3-2100 - 8 GB 1333 MHz - SSD
+
+#### CRA
+
+- create
+`61.832`
+- npm run build
+`21.982`
+- npm run test
+`6.839`
+
+#### express
+
+- create
+`20.799`
+- npm run build
+`8.498`
+- npm run test
+`9.261`
