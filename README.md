@@ -191,3 +191,23 @@ sh run.sh "Brand Model - OS - CPU - RAM - HDD"
 `8.498`
 - npm run test
 `9.261`
+
+### Oracle Cloud Free Instance - Ubuntu 20 - 1v CPU - 1 GB RAM - 50 GB HDD
+
+#### CRA
+
+- create
+`74.715`
+- npm run build
+`39.068`
+- npm run test
+`8.107`
+
+#### express
+
+- create
+`23.202`
+- npm run build
+`12.654`
+- npm run test
+`11.308`
