@@ -211,3 +211,23 @@ sh run.sh "Brand Model - OS - CPU - RAM - HDD"
 `12.654`
 - npm run test
 `11.308`
+
+### System76 Thelio - Ubuntu - 2 CPUs - 128 GB RAM - 2 TB HDD
+
+#### CRA
+
+- create
+`16.416`
+- npm run build
+`6.145`
+- npm run test
+`2.088`
+
+#### express
+
+- create
+`11.430`
+- npm run build
+`2.787`
+- npm run test
+`1.992`
