@@ -6,7 +6,7 @@ Motivation: Recently I realized that I own multiple computers. I wanted to know 
 
 ### How does it work?
 
-- [The run.sh script](./run.sh) will generate a CRA webapp (benchmark1) and an Express NodeJS app (benchmark2).
+- [The run.sh script](./run.sh) will generate a CRA webapp (benchmark1) and an Express-NodeJS app (benchmark2).
 - Then it will run usual npm commands like: npm run build, npm run test and measure the time (in seconds).
 - Results will be added to this README.md file. (run git status to see the changes)
 
@@ -23,6 +23,7 @@ git clone https://github.com/ngduc/dev-benchmark.git
 cd dev-benchmark
 sh run.sh "Brand Model - OS - CPU - RAM - HDD"
 
+Tips:
 - Run "sh run.sh" twice to get more accurate results. (due to caching)
 - Close all background apps, remote access apps. Plug in the charger if using a laptop.
 ```
