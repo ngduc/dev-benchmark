@@ -24,7 +24,7 @@ cd dev-benchmark
 sh run.sh "Brand Model - OS - CPU - RAM - HDD"
 
 Tips:
-- Run "sh run.sh" twice to get more accurate results. (due to caching)
+- Run "sh run.sh" twice to get more accurate results. (due to npm caches)
 - Close all background apps, remote access apps. Plug in the charger if using a laptop.
 ```
 
@@ -232,3 +232,23 @@ Tips:
 `2.787`
 - npm run test
 `1.992`
+
+### Macbook Pro M1 16in - Monterey - Apple M1 Pro - 32 GB - 512 GB HDD
+
+#### CRA
+
+- create
+`8.599`
+- npm run build
+`3.466`
+- npm run test
+`.976`
+
+#### express
+
+- create
+`2.919`
+- npm run build
+`1.665`
+- npm run test
+`2.750`
