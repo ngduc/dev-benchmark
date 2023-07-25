@@ -1,0 +1,3 @@
+Date,Model,CRA-create,CRA-build,CRA-test,express-create,express-build,express-test
+07/25/2023,HP 17z-ca300 - Windows 11 WSL2 Ubuntu - AMD Ryzen 5 4500U - 16 GB DDR4-2666 SDRAM - Intel SSD6 M.2 NVMe - Node 18.17.0,24.74,6.27,1.72,6.72,2.88,3.93
+01/01/2022,HP 17z-ca300 - Windows 10 HyperV Debian - AMD Ryzen 5 4500U - 16 GB DDR4-2666 SDRAM - SSD,35.71,8.56,2.61,14.42,3.77,4.31
