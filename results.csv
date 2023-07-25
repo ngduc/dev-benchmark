@@ -1,3 +1,7 @@
 Date,Model,CRA-create,CRA-build,CRA-test,express-create,express-build,express-test
+01/01/2022,Macbook Pro M1 16in - Monterey - Apple M1 Pro - 32 GB - 512 GB HDD,8.60,3.47,0.98,2.92,1.67,2.75
+01/01/2022,System76 Thelio - Ubuntu - 2 CPUs - 128 GB RAM - 2 TB HDD,16.42,6.15,2.09,11.43,2.79,1.99
 07/25/2023,HP 17z-ca300 - Windows 11 WSL2 Ubuntu - AMD Ryzen 5 4500U - 16 GB DDR4-2666 SDRAM - Intel SSD6 M.2 NVMe - Node 18.17.0,24.74,6.27,1.72,6.72,2.88,3.93
 01/01/2022,HP 17z-ca300 - Windows 10 HyperV Debian - AMD Ryzen 5 4500U - 16 GB DDR4-2666 SDRAM - SSD,35.71,8.56,2.61,14.42,3.77,4.31
+01/01/2022,"MacBook Pro (Retina, 13-inch, Early 2015) - MacOS Mojave - 3.1 GHz Intel Core i7 - 16 GB 1867 MHz DDR3 - SSD",44.45,15.58,3.45,15.50,5.49,6.19
+01/01/2022,HP 17z-ca300 - Windows 10 Docker Debian - AMD Ryzen 5 4500U - 16 GB DDR4-2666 SDRAM - SSD,46.55,9.06,2.30,14.23,3.61,4.13
