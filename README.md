@@ -21,7 +21,7 @@ Create a Pull Request to add results of your computer performance.
 - Clone and Run:
 git clone https://github.com/ngduc/dev-benchmark.git
 cd dev-benchmark
-sh run.sh "Brand Model - OS - CPU - RAM - HDD"
+sh run.sh "Brand Model - OS - CPU - RAM - HDD - Node version"
 
 Tips:
 - Run "sh run.sh" twice to get more accurate results. (due to npm caches)
@@ -32,6 +32,26 @@ Tips:
 
 - After running the script (run it twice for accurate results), the benchmark results (in seconds) will be added to this README.md file.
 - Create a Pull Request to add your results here.
+
+### HP 17z-ca300 - Windows 11 WSL2 Ubuntu - AMD Ryzen 5 4500U - 16 GB DDR4-2666 SDRAM - Intel SSD6 M.2 NVMe - Node 18.17.0
+
+#### CRA
+
+- create
+`24.738`
+- npm run build
+`6.267`
+- npm run test
+`1.723`
+
+#### express
+
+- create
+`6.721`
+- npm run build
+`2.882`
+- npm run test
+`3.928`
 
 ### HP 17z-ca300 - Windows 10 HyperV Debian - AMD Ryzen 5 4500U - 16 GB DDR4-2666 SDRAM - SSD
 
