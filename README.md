@@ -33,6 +33,10 @@ Tips:
 - After running the script (run it twice for accurate results), the benchmark results (in seconds) will be added to this README.md file.
 - Create a Pull Request to add your results here.
 
+[Results.csv](./results.csv)
+
+## Results - Legacy
+
 ### HP 17z-ca300 - Windows 11 WSL2 Ubuntu - AMD Ryzen 5 4500U - 16 GB DDR4-2666 SDRAM - Intel SSD6 M.2 NVMe - Node 18.17.0
 
 #### CRA
