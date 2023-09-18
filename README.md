@@ -276,3 +276,23 @@ Tips:
 `1.665`
 - npm run test
 `2.750`
+
+### Hetzner - Debian 12 - AMD Ryzen 5 3500X - 4 GB - 80 GB - Node 18.17.1
+
+#### CRA
+
+- create
+`24.257`
+- npm run build
+`9.523`
+- npm run test
+`3.092`
+
+#### express
+
+- create
+`6.700`
+- npm run build
+`4.467`
+- npm run test
+`5.186`
